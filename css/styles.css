@@ -63,6 +63,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    
 }
 
 .span-item {
@@ -80,18 +81,17 @@ body {
     margin-bottom: 120px;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
-    max-height: 1440px;
-    margin: 0 auto;
-    padding: 24px 156px;
     display: flex;
-    justify-content: space-between;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-
 }
 
 .header-list .header-item {
@@ -127,6 +127,7 @@ body {
 .address-container .address-item {
     display: inline;
     margin: 40px;
+
 }
 
 .contact-item {
