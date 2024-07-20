@@ -63,7 +63,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
+    margin-right: 76px;
 }
 
 .span-item {
@@ -71,9 +71,9 @@ body {
 }
 
 .container {
-    max-height: 1440px;
+    max-height: 1158px;
     margin: 0 auto;
-    padding: 0 156px;
+    padding: 0 15px;
 }
 
 .section {
@@ -89,9 +89,15 @@ body {
     display: flex;
 }
 
+
 .header-nav {
     display: flex;
     align-items: center;
+    gap: 40px;
+}
+
+.header-item {
+    padding: 24px 0;
 }
 
 .header-list .header-item {
@@ -125,8 +131,8 @@ body {
 }
 
 .address-container .address-item {
-    display: inline;
-    margin: 40px;
+    display: flex;
+    gap: 40px;
 
 }
 
