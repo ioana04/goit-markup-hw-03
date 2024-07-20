@@ -154,6 +154,7 @@ body {
 
 .first-section {
     background-color: #2E2F42;
+    padding: 188px 0;
 
 }
 
@@ -165,10 +166,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--title-color);
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-bottom: 292px;
-    padding-right: 472px;
+    max-width: 496px;
 }
 
 .primary-button {
@@ -182,6 +180,10 @@ body {
     padding: 16px 32px;
     border-radius: 4px;
     gap: 10px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .primary-button:hover {
