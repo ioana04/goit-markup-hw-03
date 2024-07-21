@@ -82,6 +82,7 @@ body {
 .second-header-container {
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -94,9 +95,11 @@ body {
     display: flex;
     gap: 40px;
 }
-.header-item{
+
+.header-item {
     padding: 24px 0;
 }
+
 .header-link-active {
     font-family: Roboto;
     font-size: 16px;
@@ -230,13 +233,26 @@ body {
     color: var(--primary-color);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nonwrap;
+    clip-path: inset(100%);
+    clip: rect(0000);
+    overflow: hidden;
+}
+
 .second-list-section {
     display: flex;
     gap: 24px;
 }
 
 .subtitle-container {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .third-section {
