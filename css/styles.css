@@ -162,11 +162,9 @@ body {
 .first-section {
     background-color: #2E2F42;
     padding: 188px 0;
-
 }
 
 .title {
-
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -278,12 +276,13 @@ body {
 
 .team {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team-photo {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .subtitle-team-photo {
@@ -336,7 +335,6 @@ body {
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
-    ;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -365,5 +363,4 @@ body {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
-
 }
