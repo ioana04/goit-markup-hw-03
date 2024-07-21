@@ -121,7 +121,7 @@ body {
     font-style: normal;
 }
 
-.address-container .address-item {
+.address-container {
     display: flex;
     gap: 40px;
 
