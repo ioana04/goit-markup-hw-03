@@ -70,6 +70,20 @@ body {
     background-color: #FFFFFF;
 }
 
+/* Generale*/
+.container {
+    max-height: 1440px;
+    margin: 0 auto;
+    padding: 0 155px;
+}
+
+.section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+/* End Generale*/
+
 /* Header*/
 .logo {
     font-family: "Raleway", sans-serif;
@@ -160,20 +174,7 @@ body {
 
 /* End Header*/
 
-/* Generale*/
-.container {
-    max-height: 1440px;
-    margin: 0 auto;
-    padding: 0 155px;
-}
-
-.section {
-    margin-top: 120px;
-    margin-bottom: 120px;
-}
-
-/* End Generale*/
-
+/* First Section*/
 .first-section {
     background-color: #2E2F42;
     padding: 188px 0;
@@ -214,6 +215,9 @@ body {
     background-color: #404BBF;
 }
 
+/* End First Section*/
+
+/* Second Section*/
 .second-section {
     padding: 120px 0;
 }
@@ -265,9 +269,12 @@ body {
 }
 
 .subtitle-container {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
+/* End Second Section*/
+
+/* Third Section*/
 .third-section {
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -307,6 +314,9 @@ body {
     text-align: center;
 }
 
+/* End Third Section*/
+
+/* Final Section*/
 .final-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -340,6 +350,8 @@ body {
     border-top: none;
     margin-bottom: 8px;
 }
+
+/* End Final Section*/
 
 .footer-section {
     background-color: #2e2f42;
