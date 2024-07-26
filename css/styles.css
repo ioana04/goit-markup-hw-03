@@ -31,7 +31,7 @@ html {
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 img {
@@ -72,9 +72,9 @@ body {
 
 /* Generale*/
 .container {
-    max-height: 1440px;
+    width: 1158px;
     margin: 0 auto;
-    padding: 0 155px;
+    padding: 0 15px;
 }
 
 .section {
@@ -100,27 +100,21 @@ body {
     color: #2E2F42;
 }
 
-.header {
+.header-box {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.container-menu {
     display: flex;
-}
-
-.second-header-container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 40px;
+
 }
 
-.header-list {
+.menu {
     display: flex;
     gap: 40px;
 }
@@ -133,7 +127,7 @@ body {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5px;
     letter-spacing: 0.02em;
     color: var(--primary-color);
 }
@@ -150,10 +144,25 @@ body {
     font-style: normal;
 }
 
+.contacts-page {
+    display: block;
+    font-style: italic;
+    unicode-bidi: isolate;
+}
+
 .address-container {
     display: flex;
     gap: 40px;
+    justify-content: space-around;
+    padding-top: 24px;
+    margin-left: 332px;
+}
 
+.address-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contact-item {
@@ -162,6 +171,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
+    padding: 24px o;
 }
 
 .contact-link:hover {
