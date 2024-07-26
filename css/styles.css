@@ -252,14 +252,6 @@ body {
     text-align: center;
 }
 
-.secondary-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: var(--primary-color);
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -279,7 +271,7 @@ body {
 }
 
 .subtitle-container {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3* 24px) / 4);
 }
 
 /* End Second Section*/
@@ -308,11 +300,12 @@ body {
 
 .team {
     border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3* 24px) / 4);
 }
 
 .team-photo {
-    padding: 32px 0 32px;
+    padding: 32px 0;
+    text-align: center;
 }
 
 .subtitle-team-photo {
@@ -322,6 +315,10 @@ body {
 
 .paragraph-team {
     text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* End Third Section*/
