@@ -77,8 +77,10 @@ body {
 }
 
 .section {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
 /* End Generale*/
