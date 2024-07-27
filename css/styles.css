@@ -310,13 +310,16 @@ body {
     flex-wrap: wrap;
 }
 
-.portofolio-item{
+.portofolio-item {
     width: calc((100% - 48px) / 3);
 }
-.app-information{
+
+.app-information {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none
 }
+
 .footer-section {
     background-color: #2e2f42;
 }
