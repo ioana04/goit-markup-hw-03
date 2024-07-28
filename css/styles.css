@@ -119,6 +119,10 @@ body {
 
 .header-item {
     padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .header-link-active {
@@ -128,6 +132,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    padding: 24px 0;
 }
 
 .header-link:hover {
@@ -138,9 +143,10 @@ body {
     color: #404bbf;
 }
 
-.contacts-page {
+.address {
     display: block;
     font-style: italic;
+    unicode-bidi: isolate;
 }
 
 .contacts-box {
@@ -154,6 +160,9 @@ body {
 .contact-item {
     font-weight: 400;
     color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contact-link:hover {
@@ -178,6 +187,11 @@ body {
     text-align: center;
     color: #FFFFFF;
     max-width: 496px;
+}
+
+.first-section .title {
+    max-width: 496px;
+    margin: auto;
 }
 
 .primary-button {
@@ -217,7 +231,7 @@ body {
 }
 
 .benefits-list-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3* 24px) / 4);
 }
 
 .subtitle {
@@ -279,7 +293,7 @@ body {
 .team {
     background-color: #FFFFFF;
     text-align: center;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3* 24px) / 4);
     border-radius: 0 0 4px 4px;
 }
 
@@ -301,6 +315,7 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    padding: 120px 0;
 }
 
 .portofolio-list {
